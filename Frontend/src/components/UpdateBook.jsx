@@ -199,7 +199,7 @@ function UpdateBook() {
         </div>
         
         <div>
-  <label htmlFor="genre" className="block text-sm font-medium">
+  <label htmlFor="genre">
     Genre
   </label>
   <select id="genre" name="Genre" value={formData.Genre} onChange={handleChange}>
